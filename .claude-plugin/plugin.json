@@ -1,0 +1,8 @@
+{
+  "name": "n-omni",
+  "version": "3.0.0",
+  "description": "N-Omni: senior-level build, design, research, business, AI, security (authorized), and writing toolkit with 9 domain skills, 20 specialist agents, and confirmed connectors.",
+  "author": { "name": "Nadji12" },
+  "license": "UNLICENSED",
+  "keywords": ["web", "games", "business", "ai", "writing", "engineering", "security", "agents", "connectors"]
+}

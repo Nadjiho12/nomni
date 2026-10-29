@@ -1,0 +1,9 @@
+# N-Omni-Skill test dependencies.
+# The scripts themselves use only the Python standard library, except where noted. Install these to run ALL tests:
+numpy>=1.26            # drift_check.py, ML/RL/vision snippets
+pandas>=2.1            # drift_check.py, ML snippets
+scikit-learn>=1.4      # ML snippets
+pillow>=10             # verify_web.py pixel checks, pixel-art snippet
+opencv-python-headless>=4.9   # vision snippets
+playwright>=1.45       # verify_web.py; then run: playwright install chromium
+# Not pip packages (tests skip when missing): Node.js >= 18 (+ npm for `ws` and `axe-core`), PHP >= 8.1 with pdo_sqlite.

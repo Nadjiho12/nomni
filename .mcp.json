@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "figma": { "type": "http", "url": "https://mcp.figma.com/mcp" },
+    "lovable": { "type": "http", "url": "https://mcp.lovable.dev" },
+    "gmail": { "type": "http", "url": "https://gmailmcp.googleapis.com/mcp/v1" },
+    "google-drive": { "type": "http", "url": "https://drivemcp.googleapis.com/mcp/v1" },
+    "google-docs": { "type": "http", "url": "https://docsmcp.googleapis.com/mcp/v1" },
+    "google-sheets": { "type": "http", "url": "https://sheetsmcp.googleapis.com/mcp/v1" },
+    "google-slides": { "type": "http", "url": "https://slidesmcp.googleapis.com/mcp/v1" },
+    "google-calendar": { "type": "http", "url": "https://calendarmcp.googleapis.com/mcp/v1" },
+    "rockhopper": { "type": "http", "url": "https://mcp.rockhopper.co/mcp" },
+    "aleph": { "type": "http", "url": "https://mcp.getaleph.com/mcp" },
+    "adobe": { "type": "http", "url": "https://adobe-creativity.adobe.io/mcp" },
+    "vidiq": { "type": "http", "url": "https://mcp.vidiq.com/mcp" },
+    "orshot": { "type": "http", "url": "https://mcp.orshot.com/mcp" },
+    "gamma": { "type": "http", "url": "https://mcp.gamma.app/mcp" },
+    "moda": { "type": "http", "url": "https://agents.moda.app/mcp" },
+    "send": { "type": "http", "url": "https://www.send.co/mcp" },
+    "theysaid": { "type": "http", "url": "https://ai.theysaid.io/api/mcp" }
+  }
+}

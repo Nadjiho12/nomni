@@ -1,0 +1,10 @@
+[
+ {"do":"shot","name":"menu"},
+ {"do":"tap","x":195,"y":420},
+ {"do":"wait","ms":2500},
+ {"do":"shot","name":"play"},
+ {"do":"changed","a":"menu","b":"play","min":0.02,"label":"menu -> gameplay changes the screen"},
+ {"do":"wait","ms":4000},
+ {"do":"shot","name":"later"},
+ {"do":"changed","a":"play","b":"later","min":0.005,"label":"gameplay keeps animating"}
+]

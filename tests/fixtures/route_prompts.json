@@ -1,0 +1,617 @@
+[
+ {
+  "prompt": "make my navbar responsive with CSS grid",
+  "expect": [
+   "references/web/frontend.md",
+   "references/web/design.md"
+  ]
+ },
+ {
+  "prompt": "add a dark mode toggle to my website",
+  "expect": [
+   "references/web/frontend.md",
+   "references/web/design.md"
+  ]
+ },
+ {
+  "prompt": "build a service worker so my PWA works offline",
+  "expect": [
+   "references/web/frontend.md"
+  ]
+ },
+ {
+  "prompt": "build a PHP login with sessions and password hashing",
+  "expect": [
+   "references/web/backend.md"
+  ]
+ },
+ {
+  "prompt": "design a REST API with Node and a SQL database",
+  "expect": [
+   "references/web/backend.md"
+  ]
+ },
+ {
+  "prompt": "handle file uploads and authentication in my web app",
+  "expect": [
+   "references/web/backend.md"
+  ]
+ },
+ {
+  "prompt": "design a landing page with a modern aesthetic",
+  "expect": [
+   "references/web/design.md"
+  ]
+ },
+ {
+  "prompt": "make my dashboard UI look professional",
+  "expect": [
+   "references/web/design.md"
+  ]
+ },
+ {
+  "prompt": "add security headers and caching to my website",
+  "expect": [
+   "references/web/production.md"
+  ]
+ },
+ {
+  "prompt": "improve Core Web Vitals and accessibility before launch",
+  "expect": [
+   "references/web/production.md"
+  ]
+ },
+ {
+  "prompt": "implement A* pathfinding for enemies",
+  "expect": [
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "how do I structure a fixed timestep game loop",
+  "expect": [
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "save system with versioning for my game",
+  "expect": [
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "turn my HTML5 game into an Android APK",
+  "expect": [
+   "references/games/browser-android.md"
+  ]
+ },
+ {
+  "prompt": "make a Three.js 3D browser game",
+  "expect": [
+   "references/games/browser-android.md"
+  ]
+ },
+ {
+  "prompt": "my Unity CharacterController keeps falling through the floor",
+  "expect": [
+   "references/games/unity.md"
+  ]
+ },
+ {
+  "prompt": "write a ScriptableObject inventory in Unity",
+  "expect": [
+   "references/games/unity.md"
+  ]
+ },
+ {
+  "prompt": "set up Enhanced Input in Unreal C++",
+  "expect": [
+   "references/games/unreal.md"
+  ]
+ },
+ {
+  "prompt": "blueprint for a door that opens in Unreal Engine",
+  "expect": [
+   "references/games/unreal.md"
+  ]
+ },
+ {
+  "prompt": "write a Blender Python script to export glb",
+  "expect": [
+   "references/games/blender-art-vfx.md"
+  ]
+ },
+ {
+  "prompt": "create a pixel art sprite sheet",
+  "expect": [
+   "references/games/blender-art-vfx.md"
+  ]
+ },
+ {
+  "prompt": "particle effect for an explosion",
+  "expect": [
+   "references/games/blender-art-vfx.md"
+  ]
+ },
+ {
+  "prompt": "balance an idle game economy",
+  "expect": [
+   "references/games/genres.md"
+  ]
+ },
+ {
+  "prompt": "design a survival crafting system",
+  "expect": [
+   "references/games/genres.md",
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "generate a roguelike dungeon procedurally",
+  "expect": [
+   "references/games/genres.md",
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "lag compensation and client prediction for my shooter",
+  "expect": [
+   "references/games/multiplayer.md"
+  ]
+ },
+ {
+  "prompt": "authoritative server for my multiplayer game",
+  "expect": [
+   "references/games/multiplayer.md"
+  ]
+ },
+ {
+  "prompt": "plan QA and release for my indie game on Steam",
+  "expect": [
+   "references/games/production.md"
+  ]
+ },
+ {
+  "prompt": "write a script to organize my downloads folder",
+  "expect": [
+   "references/tools/automation.md"
+  ]
+ },
+ {
+  "prompt": "schedule a nightly backup with cron",
+  "expect": [
+   "references/tools/automation.md"
+  ]
+ },
+ {
+  "prompt": "build a Discord bot with slash commands",
+  "expect": [
+   "references/tools/bots.md"
+  ]
+ },
+ {
+  "prompt": "telegram bot for reminders",
+  "expect": [
+   "references/tools/bots.md"
+  ]
+ },
+ {
+  "prompt": "analyze auth logs for brute force attempts",
+  "expect": [
+   "references/tools/defense.md"
+  ]
+ },
+ {
+  "prompt": "harden my Linux server SSH configuration",
+  "expect": [
+   "references/tools/defense.md"
+  ]
+ },
+ {
+  "prompt": "write an incident response runbook",
+  "expect": [
+   "references/tools/defense.md"
+  ]
+ },
+ {
+  "prompt": "scope an authorized penetration test of my web app",
+  "expect": [
+   "references/tools/security-assessment.md"
+  ]
+ },
+ {
+  "prompt": "write a vulnerability report with CVSS scores",
+  "expect": [
+   "references/tools/security-assessment.md"
+  ]
+ },
+ {
+  "prompt": "purple team validating my detections",
+  "expect": [
+   "references/tools/security-assessment.md",
+   "references/tools/defense.md"
+  ]
+ },
+ {
+  "prompt": "rewrite this email so it sounds human",
+  "expect": [
+   "references/writing/styles.md"
+  ]
+ },
+ {
+  "prompt": "write a professional status update for my manager",
+  "expect": [
+   "references/writing/styles.md"
+  ]
+ },
+ {
+  "prompt": "make my blog post less robotic",
+  "expect": [
+   "references/writing/styles.md"
+  ]
+ },
+ {
+  "prompt": "outline my fantasy novel",
+  "expect": [
+   "references/writing/fiction-books.md"
+  ]
+ },
+ {
+  "prompt": "write a chapter with better dialogue",
+  "expect": [
+   "references/writing/fiction-books.md"
+  ]
+ },
+ {
+  "prompt": "structure a nonfiction book",
+  "expect": [
+   "references/writing/fiction-books.md"
+  ]
+ },
+ {
+  "prompt": "design the architecture of an AI customer support system",
+  "expect": [
+   "references/ai/architecture.md"
+  ]
+ },
+ {
+  "prompt": "do I even need an LLM for this problem",
+  "expect": [
+   "references/ai/architecture.md"
+  ]
+ },
+ {
+  "prompt": "explain transformers and attention",
+  "expect": [
+   "references/ai/ml-dl.md"
+  ]
+ },
+ {
+  "prompt": "train a classifier and evaluate it without leakage",
+  "expect": [
+   "references/ai/ml-dl.md"
+  ]
+ },
+ {
+  "prompt": "fine-tune a model with LoRA",
+  "expect": [
+   "references/ai/ml-dl.md"
+  ]
+ },
+ {
+  "prompt": "build a RAG chatbot over my PDFs",
+  "expect": [
+   "references/ai/rag-llm.md"
+  ]
+ },
+ {
+  "prompt": "chunking and reranking for retrieval",
+  "expect": [
+   "references/ai/rag-llm.md"
+  ]
+ },
+ {
+  "prompt": "design tools for an LLM agent safely",
+  "expect": [
+   "references/ai/agents-tools.md"
+  ]
+ },
+ {
+  "prompt": "build an MCP server",
+  "expect": [
+   "references/ai/agents-tools.md"
+  ]
+ },
+ {
+  "prompt": "train a reinforcement learning agent with PPO",
+  "expect": [
+   "references/ai/rl.md"
+  ]
+ },
+ {
+  "prompt": "Q-learning example for a gridworld",
+  "expect": [
+   "references/ai/rl.md"
+  ]
+ },
+ {
+  "prompt": "detect defects in product images with computer vision",
+  "expect": [
+   "references/ai/vision.md"
+  ]
+ },
+ {
+  "prompt": "OCR invoices and extract fields",
+  "expect": [
+   "references/ai/vision.md"
+  ]
+ },
+ {
+  "prompt": "monitor model drift in production",
+  "expect": [
+   "references/ai/pipelines-mlops.md"
+  ]
+ },
+ {
+  "prompt": "build a data pipeline with validation and retraining",
+  "expect": [
+   "references/ai/pipelines-mlops.md"
+  ]
+ },
+ {
+  "prompt": "run untrusted code in a sandbox",
+  "expect": [
+   "references/ai/virtualization.md"
+  ]
+ },
+ {
+  "prompt": "set up GPU containers with Docker",
+  "expect": [
+   "references/ai/virtualization.md"
+  ]
+ },
+ {
+  "prompt": "build an isolated VM lab for CTF practice",
+  "expect": [
+   "references/ai/virtualization.md",
+   "references/tools/security-assessment.md"
+  ]
+ },
+ {
+  "prompt": "write a go-to-market plan for my app",
+  "expect": [
+   "references/business/marketing-products.md"
+  ]
+ },
+ {
+  "prompt": "how should I price my SaaS",
+  "expect": [
+   "references/business/marketing-products.md"
+  ]
+ },
+ {
+  "prompt": "market and competitor analysis for my product",
+  "expect": [
+   "references/business/marketing-products.md"
+  ]
+ },
+ {
+  "prompt": "which business model should I choose",
+  "expect": [
+   "references/business/models-strategy.md"
+  ]
+ },
+ {
+  "prompt": "should I pivot my startup",
+  "expect": [
+   "references/business/models-strategy.md"
+  ]
+ },
+ {
+  "prompt": "forecast my cash flow and runway",
+  "expect": [
+   "references/business/operations-finance.md",
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "how to run sales calls and handle invoices",
+  "expect": [
+   "references/business/operations-finance.md"
+  ]
+ },
+ {
+  "prompt": "review my design like a senior engineer",
+  "expect": [
+   "references/engineering/senior-mindset.md"
+  ]
+ },
+ {
+  "prompt": "what is the production-ready checklist",
+  "expect": [
+   "references/engineering/senior-mindset.md"
+  ]
+ },
+ {
+  "prompt": "design the architecture for a ride sharing backend",
+  "expect": [
+   "references/engineering/architecture-method.md"
+  ]
+ },
+ {
+  "prompt": "write an architecture decision record",
+  "expect": [
+   "references/engineering/architecture-method.md"
+  ]
+ },
+ {
+  "prompt": "split this task across subagents",
+  "expect": [
+   "references/engineering/agentic-workflows.md"
+  ]
+ },
+ {
+  "prompt": "which specialist should test this change",
+  "expect": [
+   "references/engineering/specialists.md",
+   "references/engineering/agentic-workflows.md"
+  ]
+ },
+ {
+  "prompt": "run research plan execute optimize review on this feature",
+  "expect": [
+   "references/engineering/multi-phase-workflow.md"
+  ]
+ },
+ {
+  "prompt": "give me unique startup ideas with evidence",
+  "expect": [
+   "references/thinking/ideas-critical.md"
+  ]
+ },
+ {
+  "prompt": "red team my plan and find the weakest assumption",
+  "expect": [
+   "references/thinking/ideas-critical.md"
+  ]
+ },
+ {
+  "prompt": "I have a vague idea, give me the full architecture",
+  "expect": [
+   "references/thinking/ideas-critical.md",
+   "references/engineering/architecture-method.md"
+  ]
+ },
+ {
+  "prompt": "build a Flutter app",
+  "expect": [
+   "references/extra/mobile.md"
+  ]
+ },
+ {
+  "prompt": "React Native or native Android for my app",
+  "expect": [
+   "references/extra/mobile.md"
+  ]
+ },
+ {
+  "prompt": "analyze this CSV with pandas and make charts",
+  "expect": [
+   "references/extra/data-ai.md"
+  ]
+ },
+ {
+  "prompt": "write a Dockerfile and GitHub Actions CI",
+  "expect": [
+   "references/extra/devops-testing.md"
+  ]
+ },
+ {
+  "prompt": "debug a failing test and find the root cause",
+  "expect": [
+   "references/extra/devops-testing.md"
+  ]
+ },
+ {
+  "prompt": "set up SLOs and alerts for my service",
+  "expect": [
+   "references/extra/devops-testing.md"
+  ]
+ },
+ {
+  "prompt": "generate retro sound effects in the browser",
+  "expect": [
+   "references/extra/audio.md"
+  ]
+ },
+ {
+  "prompt": "compose a chiptune music loop",
+  "expect": [
+   "references/extra/audio.md"
+  ]
+ },
+ {
+  "prompt": "write a PRD for my feature",
+  "expect": [
+   "references/extra/planning.md"
+  ]
+ },
+ {
+  "prompt": "make a one-page game design document",
+  "expect": [
+   "references/extra/planning.md"
+  ]
+ },
+ {
+  "prompt": "test my web game in a headless browser",
+  "expect": [
+   "references/extra/verify.md"
+  ]
+ },
+ {
+  "prompt": "read a temperature sensor with ESP32 and send over MQTT",
+  "expect": [
+   "references/extra/embedded-iot.md"
+  ]
+ },
+ {
+  "prompt": "debounce a button on Arduino",
+  "expect": [
+   "references/extra/embedded-iot.md"
+  ]
+ },
+ {
+  "prompt": "design a 3D printable enclosure with tolerances",
+  "expect": [
+   "references/extra/cad-3d-printing.md"
+  ]
+ },
+ {
+  "prompt": "my 3D print keeps warping",
+  "expect": [
+   "references/extra/cad-3d-printing.md"
+  ]
+ },
+ {
+  "prompt": "design a voice assistant with low latency",
+  "expect": [
+   "references/extra/voice-speech-ai.md"
+  ]
+ },
+ {
+  "prompt": "measure word error rate of my speech recognition",
+  "expect": [
+   "references/extra/voice-speech-ai.md"
+  ]
+ },
+ {
+  "prompt": "build a financial model in Excel with scenarios",
+  "expect": [
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "find formula errors in my spreadsheet",
+  "expect": [
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "which scripts are bundled with the skill and how do I run them",
+  "expect": [
+   "references/scripts.md"
+  ]
+ },
+ {
+  "prompt": "build a CTF with vulnerable machines and a scoreboard for my team",
+  "expect": [
+   "references/tools/lab-range-design.md"
+  ]
+ },
+ {
+  "prompt": "set up a blue team detection lab and a red team adversary emulation range",
+  "expect": [
+   "references/tools/lab-range-design.md"
+  ]
+ }
+]

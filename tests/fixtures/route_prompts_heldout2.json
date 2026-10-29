@@ -1,0 +1,223 @@
+[
+ {
+  "prompt": "why is my website so slow",
+  "expect": [
+   "references/web/production.md",
+   "references/web/frontend.md",
+   "references/web/backend.md"
+  ]
+ },
+ {
+  "prompt": "need a signup flow with hashed passwords",
+  "expect": [
+   "references/web/backend.md"
+  ]
+ },
+ {
+  "prompt": "pick colors and fonts for my brand site",
+  "expect": [
+   "references/web/design.md"
+  ]
+ },
+ {
+  "prompt": "make zombies chase the player and avoid obstacles",
+  "expect": [
+   "references/games/core.md",
+   "references/games/genres.md"
+  ]
+ },
+ {
+  "prompt": "how to add a hit marker and recoil in my fps",
+  "expect": [
+   "references/games/genres.md",
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "build a clicker game with upgrades and offline progress",
+  "expect": [
+   "references/games/genres.md"
+  ]
+ },
+ {
+  "prompt": "export my Unity game to Android",
+  "expect": [
+   "references/games/unity.md",
+   "references/games/browser-android.md"
+  ]
+ },
+ {
+  "prompt": "ship my browser game as a phone app",
+  "expect": [
+   "references/games/browser-android.md"
+  ]
+ },
+ {
+  "prompt": "create low-poly models with code",
+  "expect": [
+   "references/games/blender-art-vfx.md"
+  ]
+ },
+ {
+  "prompt": "backup my folders automatically every night",
+  "expect": [
+   "references/tools/automation.md"
+  ]
+ },
+ {
+  "prompt": "discord bot that welcomes new members",
+  "expect": [
+   "references/tools/bots.md"
+  ]
+ },
+ {
+  "prompt": "find out if someone is guessing my ssh password",
+  "expect": [
+   "references/tools/defense.md"
+  ]
+ },
+ {
+  "prompt": "how do I write up findings from a pentest I was hired for",
+  "expect": [
+   "references/tools/security-assessment.md"
+  ]
+ },
+ {
+  "prompt": "make this paragraph sound more natural",
+  "expect": [
+   "references/writing/styles.md"
+  ]
+ },
+ {
+  "prompt": "how long should a novel chapter be",
+  "expect": [
+   "references/writing/fiction-books.md"
+  ]
+ },
+ {
+  "prompt": "how do transformers work",
+  "expect": [
+   "references/ai/ml-dl.md"
+  ]
+ },
+ {
+  "prompt": "answer questions from my company wiki with an LLM",
+  "expect": [
+   "references/ai/rag-llm.md"
+  ]
+ },
+ {
+  "prompt": "give my assistant tools safely",
+  "expect": [
+   "references/ai/agents-tools.md"
+  ]
+ },
+ {
+  "prompt": "teach an agent to walk with rewards",
+  "expect": [
+   "references/ai/rl.md"
+  ]
+ },
+ {
+  "prompt": "read license plates from photos",
+  "expect": [
+   "references/ai/vision.md",
+   "references/ai/ml-dl.md"
+  ]
+ },
+ {
+  "prompt": "version my datasets and models",
+  "expect": [
+   "references/ai/pipelines-mlops.md"
+  ]
+ },
+ {
+  "prompt": "run my gpu training in a container",
+  "expect": [
+   "references/ai/virtualization.md"
+  ]
+ },
+ {
+  "prompt": "how do I get my first 100 customers",
+  "expect": [
+   "references/business/marketing-products.md"
+  ]
+ },
+ {
+  "prompt": "subscription vs one-time pricing for my tool",
+  "expect": [
+   "references/business/marketing-products.md",
+   "references/business/models-strategy.md"
+  ]
+ },
+ {
+  "prompt": "how much can I spend on ads",
+  "expect": [
+   "references/business/operations-finance.md",
+   "references/business/marketing-products.md"
+  ]
+ },
+ {
+  "prompt": "come up with unusual product ideas",
+  "expect": [
+   "references/thinking/ideas-critical.md"
+  ]
+ },
+ {
+  "prompt": "decide whether to rewrite or refactor",
+  "expect": [
+   "references/engineering/senior-mindset.md",
+   "references/engineering/architecture-method.md"
+  ]
+ },
+ {
+  "prompt": "have several specialists work on my project in parallel",
+  "expect": [
+   "references/engineering/agentic-workflows.md",
+   "references/engineering/specialists.md"
+  ]
+ },
+ {
+  "prompt": "wire up a humidity sensor and display it on a screen",
+  "expect": [
+   "references/extra/embedded-iot.md"
+  ]
+ },
+ {
+  "prompt": "tune a speech recognizer for noisy rooms",
+  "expect": [
+   "references/extra/voice-speech-ai.md"
+  ]
+ },
+ {
+  "prompt": "my forecast spreadsheet totals are off",
+  "expect": [
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "write unit tests and CI for my repo",
+  "expect": [
+   "references/extra/devops-testing.md"
+  ]
+ },
+ {
+  "prompt": "build a todo app for phones",
+  "expect": [
+   "references/extra/mobile.md"
+  ]
+ },
+ {
+  "prompt": "make my game logic testable",
+  "expect": [
+   "references/extra/verify.md",
+   "references/extra/devops-testing.md"
+  ]
+ },
+ {
+  "prompt": "turn my idea into a spec with milestones",
+  "expect": [
+   "references/extra/planning.md"
+  ]
+ }
+]

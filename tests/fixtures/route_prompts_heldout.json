@@ -1,0 +1,285 @@
+[
+ {
+  "prompt": "my site loads slowly on phones",
+  "expect": [
+   "references/web/production.md",
+   "references/web/frontend.md"
+  ]
+ },
+ {
+  "prompt": "create a pricing page layout",
+  "expect": [
+   "references/web/design.md",
+   "references/web/frontend.md"
+  ]
+ },
+ {
+  "prompt": "implement user registration with email verification in Express",
+  "expect": [
+   "references/web/backend.md"
+  ]
+ },
+ {
+  "prompt": "how can I make my canvas game run smoothly on mobile",
+  "expect": [
+   "references/games/browser-android.md",
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "enemy AI that chases the player around walls",
+  "expect": [
+   "references/games/core.md"
+  ]
+ },
+ {
+  "prompt": "player movement script in Unity with jumping",
+  "expect": [
+   "references/games/unity.md"
+  ]
+ },
+ {
+  "prompt": "Niagara system for fire",
+  "expect": [
+   "references/games/unreal.md",
+   "references/games/blender-art-vfx.md"
+  ]
+ },
+ {
+  "prompt": "animate a rotating cube in Blender with python",
+  "expect": [
+   "references/games/blender-art-vfx.md"
+  ]
+ },
+ {
+  "prompt": "how do I make a tower defense game fun",
+  "expect": [
+   "references/games/genres.md"
+  ]
+ },
+ {
+  "prompt": "sync positions between players over websockets",
+  "expect": [
+   "references/games/multiplayer.md"
+  ]
+ },
+ {
+  "prompt": "what should I track in analytics for my game",
+  "expect": [
+   "references/games/production.md"
+  ]
+ },
+ {
+  "prompt": "write a python script that renames files in bulk",
+  "expect": [
+   "references/tools/automation.md"
+  ]
+ },
+ {
+  "prompt": "bot that posts messages in a slack channel",
+  "expect": [
+   "references/tools/bots.md"
+  ]
+ },
+ {
+  "prompt": "check my web server logs for suspicious scanning",
+  "expect": [
+   "references/tools/defense.md"
+  ]
+ },
+ {
+  "prompt": "prepare rules of engagement for an authorized red team exercise",
+  "expect": [
+   "references/tools/security-assessment.md"
+  ]
+ },
+ {
+  "prompt": "turn my draft into a friendly newsletter",
+  "expect": [
+   "references/writing/styles.md"
+  ]
+ },
+ {
+  "prompt": "develop the antagonist for my thriller",
+  "expect": [
+   "references/writing/fiction-books.md"
+  ]
+ },
+ {
+  "prompt": "my model overfits how do I fix it",
+  "expect": [
+   "references/ai/ml-dl.md"
+  ]
+ },
+ {
+  "prompt": "how to embed documents and search them semantically",
+  "expect": [
+   "references/ai/rag-llm.md"
+  ]
+ },
+ {
+  "prompt": "let the LLM call functions to book meetings",
+  "expect": [
+   "references/ai/agents-tools.md"
+  ]
+ },
+ {
+  "prompt": "teach a bot to play my game using rewards",
+  "expect": [
+   "references/ai/rl.md"
+  ]
+ },
+ {
+  "prompt": "count people in a camera feed",
+  "expect": [
+   "references/ai/vision.md"
+  ]
+ },
+ {
+  "prompt": "automate retraining when data changes",
+  "expect": [
+   "references/ai/pipelines-mlops.md"
+  ]
+ },
+ {
+  "prompt": "isolate a risky script from my host machine",
+  "expect": [
+   "references/ai/virtualization.md"
+  ]
+ },
+ {
+  "prompt": "who are my competitors and how do I position against them",
+  "expect": [
+   "references/business/marketing-products.md"
+  ]
+ },
+ {
+  "prompt": "should I build a SaaS or an agency",
+  "expect": [
+   "references/business/models-strategy.md"
+  ]
+ },
+ {
+  "prompt": "when will I run out of money",
+  "expect": [
+   "references/business/operations-finance.md",
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "poke holes in my startup idea",
+  "expect": [
+   "references/thinking/ideas-critical.md"
+  ]
+ },
+ {
+  "prompt": "how would a senior engineer approach this refactor",
+  "expect": [
+   "references/engineering/senior-mindset.md"
+  ]
+ },
+ {
+  "prompt": "choose between microservices and a monolith for my app",
+  "expect": [
+   "references/engineering/architecture-method.md"
+  ]
+ },
+ {
+  "prompt": "use parallel agents to audit these modules",
+  "expect": [
+   "references/engineering/agentic-workflows.md"
+  ]
+ },
+ {
+  "prompt": "list the phases to take a feature from research to review",
+  "expect": [
+   "references/engineering/multi-phase-workflow.md"
+  ]
+ },
+ {
+  "prompt": "I want to make an app but I do not know what",
+  "expect": [
+   "references/thinking/ideas-critical.md"
+  ]
+ },
+ {
+  "prompt": "one codebase for iOS and Android",
+  "expect": [
+   "references/extra/mobile.md"
+  ]
+ },
+ {
+  "prompt": "clean this messy excel export and summarize it",
+  "expect": [
+   "references/extra/data-ai.md",
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "set up automated tests on every push",
+  "expect": [
+   "references/extra/devops-testing.md"
+  ]
+ },
+ {
+  "prompt": "make footsteps and explosion sounds for my game",
+  "expect": [
+   "references/extra/audio.md"
+  ]
+ },
+ {
+  "prompt": "write acceptance criteria and a spec for a new feature",
+  "expect": [
+   "references/extra/planning.md"
+  ]
+ },
+ {
+  "prompt": "prove my game does not crash on startup",
+  "expect": [
+   "references/extra/verify.md"
+  ]
+ },
+ {
+  "prompt": "connect a motion sensor to a raspberry pi and alert me",
+  "expect": [
+   "references/extra/embedded-iot.md"
+  ]
+ },
+ {
+  "prompt": "design a phone stand I can print",
+  "expect": [
+   "references/extra/cad-3d-printing.md"
+  ]
+ },
+ {
+  "prompt": "my chatbot needs to talk on phone calls",
+  "expect": [
+   "references/extra/voice-speech-ai.md"
+  ]
+ },
+ {
+  "prompt": "check that my financial spreadsheet has no broken formulas",
+  "expect": [
+   "references/extra/spreadsheets-modeling.md"
+  ]
+ },
+ {
+  "prompt": "explain kubernetes pods for my ml service",
+  "expect": [
+   "references/ai/virtualization.md"
+  ]
+ },
+ {
+  "prompt": "how do I do a pre-mortem on my launch plan",
+  "expect": [
+   "references/business/marketing-products.md",
+   "references/thinking/ideas-critical.md"
+  ]
+ },
+ {
+  "prompt": "write release notes and docs for my API",
+  "expect": [
+   "references/writing/styles.md"
+  ]
+ }
+]

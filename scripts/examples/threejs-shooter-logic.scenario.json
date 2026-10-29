@@ -1,0 +1,15 @@
+[
+ {"do":"eval","js":"document.querySelector('button[data-m=zm]').click(),1","label":"start Zombie mode"},
+ {"do":"wait_for","js":"state==='play'","timeout":5000},
+ {"do":"eval","js":"A.length","expect":10,"label":"10 actors (you + 9 bots)"},
+ {"do":"eval","js":"A.filter(a=>!a.zom).length","expect":10,"label":"all human at round start"},
+ {"do":"wait_for","js":"A.filter(a=>a.zom).length===1","timeout":15000,"label":"patient zero appears after countdown"},
+ {"do":"wait","ms":20000},
+ {"do":"eval","js":"A.filter(a=>a.zom).length","expect":{"gte":2},"label":"infection spreads (>=2 zombies after 20s)"},
+ {"do":"eval","js":"A.every(a=>isFinite(a.pos.x)&&isFinite(a.pos.z)&&isFinite(a.hp))","expect":true,"label":"no NaN"},
+ {"do":"eval","js":"A.every(a=>Math.abs(a.pos.x)<=38.7&&Math.abs(a.pos.z)<=38.7)","expect":true,"label":"nobody escapes the arena"},
+ {"do":"eval","js":"A.map(a=>(a.zom?'Z':'H')+Math.round(a.hp)).join(' ')","label":"hp/state snapshot"},
+ {"do":"wait_for","js":"phase==='over'","timeout":140000,"label":"round ends (zombies win or humans survive)"},
+ {"do":"eval","js":"fm","label":"round result message"},
+ {"do":"wait_for","js":"phase==='play'","timeout":12000,"label":"next round starts automatically"}
+]

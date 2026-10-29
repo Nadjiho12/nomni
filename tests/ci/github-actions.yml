@@ -1,0 +1,22 @@
+# Copy to .github/workflows/nos-tests.yml in the repository that hosts this skill.
+# NOTE: this workflow definition has not been executed by the author; run it once and fix any environment differences before relying on it.
+name: nos-tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}" }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sudo apt-get update && sudo apt-get install -y php-cli php-sqlite3
+      - run: pip install -r tests/requirements.txt
+      - run: playwright install --with-deps chromium
+      - run: python scripts/verify_web.py --check-env
+      - run: python tests/run_tests.py -v
